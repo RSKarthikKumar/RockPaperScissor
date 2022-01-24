@@ -83,10 +83,10 @@ app.use(express.static("public"));
 // }
 
 app.get("/",function(res,req){
-    req.sendFile(__dirname+ "/start.html");
+    req.sendFile(__dirname+ "/index.html");
 });
 app.post("/",function (req, res){
-    res.sendFile(__dirname+"/index.html");
+    res.sendFile(__dirname+"/rpsgame.html");
 });
 
 
